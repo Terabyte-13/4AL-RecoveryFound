@@ -1,0 +1,220 @@
+				
+		@keyframes hover1 {
+		0% {font-size:50px}
+		100% {font-size:53px}
+		}
+		
+		@keyframes out1 {
+		0% {font-size:53px}
+		100% {font-size:50px}
+		}
+		
+
+		a:link {
+		color: #d1f9ff;
+		text-decoration: none;
+		}
+				
+		a:visited {
+		color: #d1f9ff;
+		text-decoration: none;
+		}
+		
+		body { background-color:#36393F;
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin: 0;}
+		
+		.bar1 { background-image: url('https://www.asfe-vr.it/wp-content/uploads/2020/11/digitalization--1320x677.jpg'); 
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+			border-radius: 25px;
+						}
+		
+			.bar1:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+					
+		.bar2 { background-image: url('https://media.discordapp.net/attachments/832328620386811945/836999864566939658/unknown.png?width=810&height=537'); 
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+			border-radius: 25px;
+						}
+		
+			.bar2:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+					
+		.bar3 { background-image: url('missingt.png'); 
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+			border-radius: 25px;
+						}
+		
+			.bar3:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+				
+		.bar4 { background-image: url('missingt.png'); 
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+			border-radius: 25px;
+						}
+		
+			.bar4:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+					
+		.bar5 { background-image: url('https://cdn.discordapp.com/attachments/832328620386811945/848634406372507708/storia.jpg'); 
+			text-shadow: 2px 2px #717171;
+			background-size:cover;
+			color:white; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+			border-radius: 25px;
+						}
+		
+			.bar5:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+					
+		.bar6 { background-image: url('https://cdn.discordapp.com/attachments/832328620386811945/848634774981050371/racial-equality-hub-image.jpg'); 
+			text-shadow: 2px 2px #FFFFFF;
+			background-size:cover;
+			color:grey; 
+			font-family:monospace; 
+			font-size:50px; 
+			padding: 3.5%;	
+			font-weight: 900;
+			text-align:center;
+			animation-name:out1;
+			animation-duration:0.2s;
+			animation-timing-function: ease-in-out;
+			animation-iteration-count: 1;
+			animation-direction: normal;
+			border-radius: 25px;
+						}
+		
+			.bar6:hover { animation-name:hover1;
+					animation-duration:0.2s;
+					animation-timing-function: ease-in-out;
+					animation-iteration-count: 1;
+					animation-direction: normal;
+					animation-fill-mode:forwards
+					}
+					
+			.topbar { background-image: url('https://media.discordapp.net/attachments/832328620386811945/848625306126516314/unknown.png?width=810&height=180'); 
+			background-size:cover;
+			font-size:50px; 
+			padding: 3.5%;	
+			background-size: 800px 200px;
+			background-repeat: no-repeat;
+			background-position: center;
+			}
+
+		.text1 {color:white;
+			font-size:25px;
+			padding:35px;
+			font-family:sans-serif;
+			line-height:1.5;
+		}
+		
+		h1 {color:white;
+			font-size:40px;
+			text-align: center;
+			padding:10px;
+			font-family:sans-serif;
+			line-height:1.5;
+		}
+		
+		h2 {color:grey;
+			font-size:20px;
+			padding:30px;
+			font-family:sans-serif;
+			line-height:1.5;
+			
+		}
+		
+		h3 {color:#456999;
+			font-size:20px;
+			padding:30px;
+			font-family:sans-serif;
+			line-height:1.5;
+		}
+		
+
+		
+		
+		

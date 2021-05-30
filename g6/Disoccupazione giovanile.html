@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+
+<html lang="it">
+<head>
+    <title>Recovery fund 4A - G6</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina web con GitHub">
+    <meta name="keyword" content="Scuola, Studenti, Docenti">
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <meta name="author" content="VF && PP">
+    <meta charset="utf-8" />
+
+    <!--Top Navigation, Scroll back top btn-->
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Oswald, Merriweather, Roboto;
+            font-size: 20px;
+        }
+
+        /*#region Top Navigation*/
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active { /*home btn*/
+                    background-color: #00a6ff;
+                    color: white;
+                }
+
+            .topnav .icon {
+                display: none;
+            }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+                .topnav.responsive .icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+        }
+        /*#endregion*/
+
+        /*#region container (per mantenere la lista al fianco dell'immagine)*/
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        .image {
+            flex-basis: 200%;
+            padding-left: 75px;
+            padding-right: 50px;
+        }
+        /*#endregion*/
+
+        /* #region ScrollBackTopBtn*/
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #00a6ff;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+            #myBtn:hover {
+                background-color: #29B4FF;
+            }
+        /* #endregion */
+    </style>
+</head>
+
+<!--Top Navigation, Scroll back top btn-->
+<body bgcolor="#17202A">
+
+    <!--#region Top Navigation-->
+    <div class="topnav" id="myTopnav">
+        <a href="HOME.html" class="active">Home</a>
+        <a href="Recovery fund g6 pagina 2.html">Il piano</a>
+        <a href="Chi siamo.html">Chi siamo?</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <!--testo e roba varia-->
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- #endregion -->
+
+    <div style="height:1070px;width:1900px;background-color:black;font-size:36px">
+        <img width="1900" src="Disoccupazione giovanile.jpg" alt="disoccupazione giovanile" />
+    </div>
+
+    <div style="height: 75px;"></div>
+
+    <div style="padding-left:25px; padding-right:35px; padding-bottom:30px">
+
+        <h1 style="color:white;font-size:50px">Disoccupazione giovanile</h1>
+
+        <div class="container">
+            <!--Container per avere la lista al lato dell'immagine-->
+            <div>
+                <h2 style="color:white; font-weight:normal">
+                    <br />Con l'espressione <b>disoccupazione giovanile</b> ci si riferisce a quei <b>ragazzi</b> che <b>non studiano e non lavorano</b>. Secondo i dati raccolti nel rapporto <b>ISTAT</b> sui
+                    livelli di istruzione in Italia, il tasso di <b>giovani fra 15 e 29 anni inattivi</b> corrisponde al <b>22,2%</b>, con circa 2 milioni di persone coinvolte e, a causa dell'epidemia
+                    che ha colpito il mondo intero, la percentuale non accenna a diminuire ma al contrario tende ad aumentare.<br /> Considerando invece i ragazzi fra i 15 ed i 24 anni, che sono quelli per
+                    convenzione considerati nei dati ufficiali sulla disoccupazione giovanile, <b>il quadro peggiora</b>.
+                    L’Italia, in questo indicatore, arriva <b>oltre il 30%</b>.<br />
+                    La <b>mancanza di prospettive</b> e lunghi periodi di disoccupazione portano a maggiore possibilità di essere disoccupati più avanti e peggiorano le probabilità di carriera.
+                    <b>Lasciare indietro i giovani</b>, i più colpiti dalle crisi economiche, non vuole solo dire creare isolamento ed esclusione sociale, dipendenza e mancanza di stima, ma
+                    <b>comporta</b> anche <b>risultati negativi per l’economia</b> e per le società che invecchiano sempre di più.
+                </h2>
+            </div>
+
+            <div class="image">
+                <img src="occupati.jpg" alt="grafico occupazione">
+            </div>
+        </div>
+
+        <h1 style="color:white;font-size:50px">Quali sono le cause della disoccupazione giovanile?</h1>
+        <h2 style="color:white; font-weight:normal">
+            Le <b>ragioni</b> che portano le generazioni più giovani a dover <b>faticare</b> così tanto per <b>entrare nel mondo del lavoro</b> sono molteplici, la <b>crisi</b> da sola, infatti,
+            non basta a spiegare tale situazione. Secondo gli esperti ci sono ben 5 ragioni di fondo:
+        </h2>
+        <ul>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Le barriere del mercato del lavoro</b>: Paesi con un mercato del lavoro rigido, caratterizzato da un alto salario minimo e con politiche del lavoro che rendono <b>impegnativo assumere</b> e <b>impossibile licenziare</b>, come la <b>Spagna</b> e l'<b>Italia</b>, sono quelli in cui l'ambiente lavorativo è <b>poco accogliente per i più giovani</b></h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Le competenze dei giovani</b>: Vi è una <b>distanza</b> (in progressivo aumento) che separa le <b>competenze</b> dei giovani da quelle <b>richieste</b> dai datori di lavoro che lamentano di non riuscire a trovare i talenti adatti. <b>Le aziende</b> inoltre <b>criticano</b> una <b>formazione poco efficace</b>, in quanto la preparazione superiore e universitaria è spesso troppo teorica, in più <b>solo il 30%</b> delle università accetta che possa esistere un effettivo <b>spazio di miglioramento</b> nell'insegnamento. </h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Il passaggio scuola-lavoro</b>: I Paesi con la più bassa disoccupazione giovanile sono quelli che hanno colmato le distanze fra la formazione e il mondo del lavoro. Un esempio concreto è la Germania, la quale ha messo a punto dei specifici corsi d'orientamento di alto livello, un efficiente apprendistato e l'instaurazione di legami con l'industria per creare un canale d'accesso al mondo del lavoro. A complicare le cose vi è anche il fatto che, a causa della crisi, le aziende sono meno disposte ad investire del tempo prezioso in training per i giovani. </h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Motivazioni geografiche e anagrafiche</b>: In uno stesso paese il tasso di disoccupazione è più alto in acune zone piuttosto che in altre. Vivere in un <b>bacino poco accogliente per i lavoratori</b> ha effetti negativi anche su chi cerca di entrare per la prima volta nel mondo del lavoro. Anche quando un giovane riesce a trovar un impiego, la sua <b>posizione</b> risulta essere maggiormente <b>precaria</b> rispetto a quella di lavoratori che sono entrati in azienda prima e che hanno maggiori esperienze e responsabilità che le imprese cercano di tutelare.</h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Il tempo</b>: Chi non ha la fortuna di essere indirizzato in un percorso lavorativo ben determinato, rischia di ritrovarsi vittima di tempistiche più lunghe per trovare lavoro, di <b>contratti precari</b>, di stipendi più bassi e di un <b>ulteriore disoccupazione</b>.</h2></li>
+        </ul>
+
+    </div>
+
+    <div style="width:1900px;">
+        <img src="Youth unemployment.jpeg" alt="immagine gender pay gap" />
+    </div>
+
+    <div style="padding-left:25px; padding-right:35px">
+        <h1 style="color:white;font-size:50px">Iniziative per ridurre la disoccupazione giovanile</h1>
+        <ul>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Iniziative su modello tedesco</b>: corsi di apprendistato post-laurea in collaborazione con aziende convenzionate che garantiscano l'entrata in un ambiente professionale stabile</h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Riporre fiducia nei giovani</b></h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Preparare i giovani</b> ad un ambiente meritocratico</h2></li>
+            <li style="color:white;"><h2 style="font-weight: normal;color:white;"><b>Riforma del sistema pensionistico</b>: ridurre età minima per andare in pensione <b>(problema burocratico)</b></h2></li>
+        </ul>
+    </div>
+    <div style="height:100px"></div>
+
+
+    <!-- #region ScrollBackTopBtn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top<!-- sostituisci con logo freccia in alto--></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- #endregion -->
+
+</body>
+</html>

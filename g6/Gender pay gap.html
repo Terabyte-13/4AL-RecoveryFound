@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+
+<html lang="it">
+<head>
+    <title>Recovery fund 4A - G6</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina web con GitHub">
+    <meta name="keyword" content="Scuola, Studenti, Docenti">
+    <meta name="viewport" content="with=device-with, initial-scale=1.0">
+    <meta name="author" content="VF && PP">
+    <meta charset="utf-8" />
+
+    <!--Top Navigation, Scroll back top btn-->
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Oswald, Merriweather, Roboto;
+            font-size: 20px;
+        }
+
+        /*#region Top Navigation*/
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+                .topnav a.active { /*home btn*/
+                    background-color: #00a6ff;
+                    color: white;
+                }
+
+            .topnav .icon {
+                display: none;
+            }
+
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child) {
+                display: none;
+            }
+
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+
+                .topnav.responsive .icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                .topnav.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+        }
+        /*#endregion*/
+
+        /*#region container (per mantenere la lista al fianco dell'immagine)*/
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        .image {
+            flex-basis: 150%;
+            padding-left: 75px;
+            padding-right:50px;
+        }
+        .image2 {
+            flex-basis: 200%;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        /*#endregion*/
+
+        /* #region ScrollBackTopBtn*/
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            background-color: #00a6ff;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+            #myBtn:hover {
+                background-color: #29B4FF;
+            }
+        /* #endregion */
+    </style>
+</head>
+
+<!--Top Navigation, Scroll back top btn-->
+<body bgcolor="#17202A">
+    <!--#region Top Navigation-->
+    <div class="topnav" id="myTopnav">
+        <a href="HOME.html" class="active">Home</a>
+        <a href="Recovery fund g6 pagina 2.html">Il piano</a>
+        <a href="Chi siamo.html">Chi siamo?</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div style="padding-left:16px">
+        <!--testo e roba varia-->
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- #endregion -->
+
+    <div style="height:1070px;width:1900px;background-color:black;font-size:36px">
+        <img width="1900" src="Gender pay gap.png" />
+    </div>
+
+    <div style="height: 75px;"></div>
+
+    <div style="padding-left:25px; padding-right:35px">
+        <h1 style="color:white;font-size:50px">Che cos'è il gender pay gap?</h1>
+
+        <h2 style="color:white; font-weight:normal">
+            <br />Con l'espressione inglese "<i>gender pay gap</i>" si indica la <b>differenza di salario</b> tra donne e uomini.
+        </h2>
+        <h2 style="color:white; font-weight:normal">
+            Nell'analisi di questo aberrante fenomeno vengono distinti <b>due</b> differenti <b>parametri</b>:
+        </h2>
+        <ul>
+            <li style="color:white;"><h2 style="color:white;"> <i>non-adjusted pay gap</i></h2></li>
+            <li style="color:white;"><h2 style="color:white;"> <i>adjusted pay gap</i></h2></li>
+        </ul>
+        <h2 style="color:white; font-weight:normal; font-size:27px">
+            <b>Il primo</b> indica il divario stipendiale che si basa sulla sola <b>retribuzione lorda oraria</b> mentre <b>il secondo</b> oltre a prendere in considerazione il salario <b>include</b>
+            al suo interno anche il <b>tasso di occupazione femminile</b>, il <b>livello di istruzione</b> di lavoratrici e lavoratori, il <b>settore</b> di impiego e i <b>ruoli</b> occupati dalle donne sul luogo di lavoro.<br /><br />
+        </h2>
+
+        <h1 style="color:white;font-size:50px">La situazione in Italia</h1>
+
+        <div class="container">
+            <!--Container per avere la lista al lato dell'immagine-->
+            <div>
+                <h2 style="color:white; font-weight:normal; font-size:27px">
+                    L'associazione <i>EU Justice</i> (portale europeo della giustizia), è un unico <b>sportello elettronico</b> nel campo della giustizia il cui scopo, allo stadio attuale,
+                    è rendere più semplice la vita del cittadino, fornendo informazioni sui sistemi giudiziari e migliorando l'accesso alla giustizia in tutta l'UE.<br /><br />
+                </h2>
+                <h2 style="color:white; font-weight:normal; font-size:25px">
+                    Nell'ultima pubblicazione del portale, risalente al 2019, sono stati dichiarati i <b>dati statistici</b> riguardanti l'ammontare dello scarto di retribuzione di genere,
+                    in quanto <b>ogni anno</b> vengono elaborati <b>report</b> al livello europeo sulla situazione del gender pay gap e, al momento, l'<b>Italia</b> si distingue positivamente per quanto
+                    riguarda il non-adjusted pay gap. Infatti, si è notato come nel nostro Paese lo scarto retributivo sia <b>"solo" del 5%</b>. Preferiremmo che tale differenza si appianasse del tutto,
+                    ma <b>in Europa</b> esistono <b>casi</b> decisamente <b>più gravi</b>, come quello dell'Estonia dove questo tasso si aggira attorno al 22%.
+                </h2>
+            </div>
+
+            <div class="image">
+                <img src="GPG  2019.png" alt="grafico gender pay gap">
+            </div>
+        </div>
+
+        <h2 style="color:white; font-weight:normal; font-size:27px">
+            Purtroppo lo scenario cambia quando si inizia a parlare dell'<b>adjusted pay gap</b>.
+            Qui, il <b>tasso</b> di differenza di stipendio tra uomini e donne è di <b>circa il 44%</b> su una <b>media europea</b> pari al <b>39%</b>. Una situazione che fa davvero rabbrividire e
+            che fa dell'Italia uno dei Paesi in cui la <b>situazione</b> è più <b>critica</b>.<br />
+        </h2>
+
+        <h1 style="color:white;font-size:50px"><br />I motivi dietro al divario salariale tra uomini e donne</h1>
+
+        <h2 style="color:white; font-weight:normal; font-size:27px">
+            La domanda può sorgere spontanea: <b>perché</b> nel terzo millennio le donne guadagnano meno? La <b>risposta</b> purtroppo, seppur possa risultare scontata non è così semplice
+            da trovare perché data dall'<b>unione di diversi aspetti</b>. Da una parte, c'è sicuramente un <b>retaggio culturale</b> che si fatica a eliminare. Per anni, alle posizioni di
+            comando e di prestigio, ci sono sempre stati gli uomini e ancora oggi si tende a preferire un uomo a una donna nella nomina ad una promozione o all'assegnazione
+            di un incarico importante. È un motivo arbitrario che <b>non ha nessun fondamento</b> e che priva dell'opportunità di mostrare il proprio valore a centinaia di migliaia di donne.<br />
+            Poi, vi è l'ostica questione relativa alla <b>maternità</b>. Il fatto che una donna possa diventare madre e prendersi un periodo di pausa verso il termine della gravidanza,
+            non cessa di spaventare. Inoltre, le potenziali lavoratrici già mamme hanno molte meno chance di trovare un'occupazione rispetto alle loro colleghe senza figli o, in alternativa,
+            dovranno accontentarsi di mansioni umili, e non ai vertici di un'azienda. La gestione di un <b>bambino</b> piccolo dunque costringe le madri a dover trovare un <b>compromesso</b> tra l'impiego
+            lavorativo e l'accudire il proprio figlio e spesso tale situazione le porta a dover lasciare il posto di lavoro in quanto hanno a disposizione un <b>tempo limitato</b>. Questo è ciò che
+            accade ogni giorno sotto ai nostri occhi in Italia, nei Paesi dell'Unione europea e nel resto del mondo. Non si parla tanto di omertà rispetto alla situazione femminile, ma di
+            <b>assuefazione</b> ad un fenomeno di cui ancora oggi non ne si comprende la gravità.<br />
+        </h2>
+    </div>
+
+    <div style="width:1900px;">
+        <img src="Gender pay gap img.jpg" alt="immagine gender pay gap" />
+    </div>
+
+    <div style="padding-left:25px; padding-right:35px">
+        <h1 style="color:white;font-size:50px"><br />Le iniziative contro il gender pay gap</h1>
+
+        <div class="container">
+            <!--Container per avere la lista al lato dell'immagine-->
+            <div>
+                <h2 style="color:white; font-weight:normal; font-size:27px">
+                    Il <b>World Economic Forum</b> (Fondazione non profit con sede a Cologny presso il Lago di Ginevra, creata nel 1971 che si occupa dell'organizzazione di incontri tra personaggi di primo
+                    piano del mondo politico, economico e accademico, allo scopo di definire e discutere le questioni più urgenti da affrontare per il benessere e la crescita a livello mondiale)
+                    ha elaborato un <b>report</b> proprio relativo al <b>gender pay gap</b>. Al momento, sembra che la differenza di retribuzione tra uomini e donne <b>si azzererà tra più di 200 anni</b>.
+                    Infatti, se prima la stima si aggirava attorno ai 180, con la crisi dovuta alla pandemia la situazione è peggiorata ulteriormente. Fortunatamente già da qualche tempo esistono diverse
+                    iniziative contro la problematica in questione. Una di esse è l'<b><i>Equal Pay Day</i></b>, una giornata internazionale simbolica dedicata alla <b>sensibilizzazione</b> rispetto al divario
+                    salariale di genere.<br />
+
+                </h2>
+            </div>
+
+            <div class="image2">
+                <img src="Equal-Pay-Daypng.png" alt="equal pay day">
+            </div>
+        </div>
+
+        <h2 style="color:white; font-weight:normal; font-size:25px">
+            Tra le altre possibili <b>soluzioni</b> che potrebbero davvero cambiare le cose troviamo:
+        </h2>
+        <ul>
+            <li style="color:white;"><h2 style="color:white;">Dare maggiore aiuto alle donne in modo che entrino e rimangano sul mercato di lavoro</h2></li>
+            <li style="color:white;"><h2 style="color:white;">In sostituzione al loro ruolo di “padrone di casa” si potrebbe incoraggiare gli uomini ad assumersi più responsabilità familiari</h2></li>
+            <li style="color:white;"><h2 style="color:white;">Rivedere la retribuzione del tempo dedicato alla cura domestica, in modo tale che le donne possano essere mogli, madri e lavoratrici esattamente come gli uomini sono mariti, padri e lavoratori</h2></li>
+            <li style="color:white;"><h2 style="color:white;">Proporre dei corsi di formazione sempre aggiornati, in modo da rendere le competenze delle donne all’avanguardia e arrivare alla parità salariale obbligatoria</h2></li>
+            <li style="color:white;"><h2 style="color:white;">Dare la parità del processo decisionale, dalla dignità e dall’integrità alle donne come viene data agli uomini</h2> </li>
+            <li style="color:white;"><h2 style="color:white;">Ristabilire un sano equilibrio fondato sul rispetto e la collaborazione</h2></li>
+            <li style="color:white;"><h2 style="color:white;">Garantire una maggiore flessibilità lavorativa</h2></li>
+            <li style="color:white;"><h2 style="color:white;">Istruire le nuove generazioni alla parità di genere ed eliminare così quelle leggi non scritte che determinano il futuro lavorativo delle donne</h2></li>
+        </ul>
+    </div>
+
+    <div style="height: 75px;"></div>
+
+    <!-- #region ScrollBackTopBtn -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top<!-- sostituisci con logo freccia in alto--></button>
+
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- #endregion -->
+
+</body>
+</html>

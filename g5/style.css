@@ -1,0 +1,217 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.home .head {
+  height: 70vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background: url("./img/head.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.home .head .ombra {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.home .head .titolo,
+.home .head .scuola {
+  z-index: 1;
+}
+
+.home .head .titolo {
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+.home .contenitore {
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.home .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .nav li {
+  display: block;
+  padding: 10px;
+  background: #228B22;
+  border-radius: 10px;
+  margin: 0px 5px;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+.home .nav li:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.home .nav li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.home .titolo,
+.home .scuola,
+.home .argomento,
+.home .lista_persone {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.home .lista_persone {
+  list-style-type: none;
+}
+
+.articolo .nav {
+  display: block;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: green;
+}
+
+.articolo .nav li.qui a {
+  background: darkgreen;
+}
+
+.articolo .nav li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px 10px;
+}
+
+.articolo .nav li a:hover {
+  background: #006e00;
+}
+
+.articolo .head {
+  height: 40vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.articolo .head.incipit {
+  background-image: url("./img/incipit.jpg");
+}
+
+.articolo .head.storia {
+  background-image: url("./img/storia.jpg");
+}
+
+.articolo .head.tecnologie {
+  background-image: url("./img/tecnologie.jpg");
+}
+
+.articolo .head.agricole {
+  background-image: url("./img/agricole.jpg");
+}
+
+.articolo .head .ombra {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.articolo .head .titolo {
+  z-index: 1;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.articolo .contenitore {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 960px;
+}
+
+.articolo .contenitore .centro {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
